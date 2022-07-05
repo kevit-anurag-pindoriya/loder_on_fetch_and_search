@@ -1,7 +1,18 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+  font-size: 25px;
 }
-
+.App__glass {
+  background-color: #282c34;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +46,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.loder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.App__input-text {
+  font-size: 25px;
+  font-family: "Roboto";
+  border-radius: 5px;
+}
+
+.App__option {
+  font-size: 25px;
+  font-family: "Roboto";
+  margin-top: 15px;
 }
